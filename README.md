@@ -1,18 +1,19 @@
-# fitness-tracker-pwa
+# budget-tracker-pwa
 
-A pwa version of my fitness tracker
+A PWA version of my Budget tracker
 
 ## Description
 
-Fitness tracker is a web application that uses chart.js and mongoose to track your workouts and exercises within those workouts. You can add cardio and resistance exercises and track all of your recent work outs with a handy graph page.
+This budget tracker is a progressive web application that is designed to work both off and online. This means wherever you are in the world, you have access to this application so you can stay on top of your budget and available funds. The graph is made using chartJS to give the user a nice visual of their spending habits.
 
 ## Installation and Usage
 
-There is no need for any installation, and to use, just add exercises by "continuing" your workouts, and to add new workouts, just click the add workout button.
+In order to download this application on your you can either click the button in the right corner of your URL bar with a computer screen and a down arrow. If on Safari on an Iphone, you can save this app by clicking the share button in the middle bottom of your browser, this will give you a screen that allows you to "add to homepage". This will place an app bubble in the homescreen of your phone, from which you can access the budget tracker at all times.
+
+Using the app is fairly simple. Add a name and amount for either a deposit or an expenditure, then click the button to either add or subtract funds.
 
 ## Credits
 
-The front end of this website was provided to me by UCSD Extension, and I designed the database and server routes for the backend of the application.
-I also received a little help with closing off and optimizing some of the routes from Jun Park and Vivianna Cowin, two MongoDB experts.
+This web application was provided to me by the UCSD Extension Coding Bootcamp. I enabled all of the offline features and gave it the necessary components to become a Progressive Web Application.
 
-![screenshot of my fitness page](./assets/images/fitness-tracker-graphSS.png)
+![screenshot of my budget page](./public/images/budget-tracker-SS.png)
