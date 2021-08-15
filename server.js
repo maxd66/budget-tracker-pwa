@@ -26,7 +26,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget_pwa", {
 app.use(require("./routes/api.js"));
 
 app.get("/", function (req, res) {
-  res.sendFile(path.join(__dirname, "../public/index.html"));
+  res.sendFile(path.join(__dirname, "./public/index.html"));
 });
 
 app.listen(PORT, () => {
